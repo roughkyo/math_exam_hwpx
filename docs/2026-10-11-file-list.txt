@@ -3,6 +3,7 @@
 README.md
 docs/2026-10-11-file-list.txt
 docs/2026-10-11-publication-audit.md
+docs/2026-10-11-template-update.md
 math_exam/README.md
 math_exam/SKILL.md
 math_exam/agents/openai.yaml

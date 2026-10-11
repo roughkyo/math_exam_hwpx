@@ -95,7 +95,7 @@ def build(plan_path, output, template=None):
     def style(block):
         key = (block.get('size', 11), block.get('bold', False), block.get('ratio', 100))
         if key not in styles:
-            cp = deepcopy(chars[adapter.get('char_seed', 0)])
+            cp = deepcopy(chars[adapter.get('char_seed', 23)])
             cid = max(int(c.get('id')) for c in chars) + 1
             cp.set('id', str(cid))
             cp.set('height', str(round(key[0] * 100)))
@@ -186,9 +186,6 @@ def build(plan_path, output, template=None):
         run = m.el('hp:run', p, charPrIDRef=0)
         m.el('hp:t', run)
         section.append(p)
-        # 공개용 새 양식에는 기관 머리말이 없으므로 원고의 제목을 일반 글자로 표시합니다.
-        if not page.get('background') and template == (PACKAGE / 'assets/forms/default_exam.hwpx').resolve():
-            native_paragraphs.paragraph(run, {'type': 'text', 'text': page.get('heading', plan.get('title', '수학 문제지')), 'x': 85, 'y': 70, 'width': 670, 'height': 28, 'size': 20, 'bold': True}, para_id, border_id, style, equation)
         if page.get('background'):
             image_count += 1
             picture(run, {'path': page['background'], 'x': 0, 'y': 0, 'width': paper[0], 'height': paper[1]}, image_count)
