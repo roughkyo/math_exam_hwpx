@@ -1,0 +1,304 @@
+{
+  "title": "본문 직접 편집·수식 경계 검증",
+  "pages": [
+    {
+      "heading": "본문과 수식 분리 검증",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 235,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "tan theta"
+            },
+            {
+              "text": "의 값은? [3점]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 278,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "cos theta"
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 321,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "sin theta+3cos theta=0"
+            },
+            {
+              "text": "이고 "
+            },
+            {
+              "equation": "sin theta"
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 364,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "int _{0}^{pi over 2} sqrt {sin x-sin^{3}x} dx"
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 407,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "Q LEFT ( log _{5} 12 RIGHT )"
+            },
+            {
+              "text": "에 대하여"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 450,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "(a, b, c, d)"
+            },
+            {
+              "text": "의 순서쌍"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 493,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "(4, 0, 7)"
+            },
+            {
+              "text": "일 때, 점 "
+            },
+            {
+              "equation": "B(9, 2, b)"
+            },
+            {
+              "text": "에 대하여"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 536,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "log _{9} ab"
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 579,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "LEFT (a, sqrt {2} a RIGHT )"
+            },
+            {
+              "text": "에서 만난다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 622,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "ln 2"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "ln 3"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "sin pi t"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "tan 6x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 665,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "log _{5} 3"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "2ln a"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "LEFT |sin x RIGHT | cos x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 708,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "흰 공 1개와 검은 공 2개를 꺼낸다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 751,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "두 사건 "
+            },
+            {
+              "equation": "A"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "B"
+            },
+            {
+              "text": "는 서로 독립이다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 794,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "("
+            },
+            {
+              "equation": "X"
+            },
+            {
+              "text": "가 0 또는 1의 값을 가지는 경우)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 837,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "도형을 "
+            },
+            {
+              "equation": "T"
+            },
+            {
+              "text": "라 하고 "
+            },
+            {
+              "equation": "P(B~|~A)"
+            },
+            {
+              "text": "를 구한다."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

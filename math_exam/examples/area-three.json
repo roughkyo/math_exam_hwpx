@@ -1,0 +1,823 @@
+{
+  "title": "정적분의 활용 응용·변형 3문항",
+  "pages": [
+    {
+      "heading": "정적분의 활용 응용·변형 문제",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1. 곡선과 직선으로 둘러싸인 부분의",
+          "x": 55,
+          "y": 235,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "text",
+          "text": "넓이는? [3점]",
+          "x": 70,
+          "y": 260,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "y=-x^2+4x+1, y=x+1",
+          "x": 75,
+          "y": 291,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "①",
+          "x": 60,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "3",
+          "x": 78,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "②",
+          "x": 120,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "{7} over {2}",
+          "x": 138,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "③",
+          "x": 180,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "4",
+          "x": 198,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "④",
+          "x": 240,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "{9} over {2}",
+          "x": 258,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "⑤",
+          "x": 300,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "5",
+          "x": 318,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "image",
+          "path": "graph-1.png",
+          "x": 62,
+          "y": 388,
+          "width": 290,
+          "height": 220
+        },
+        {
+          "type": "equation",
+          "script": "y=-x^2+4x+1",
+          "x": 129.41020408163266,
+          "y": 407.1473684210526,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y=x+1",
+          "x": 266.95306122448983,
+          "y": 430.30526315789473,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "x",
+          "x": 326.9,
+          "y": 554.7263157894737,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y",
+          "x": 118.49795918367349,
+          "y": 395.2,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "O",
+          "x": 112.49795918367349,
+          "y": 563.7263157894737,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "3",
+          "x": 266.865306122449,
+          "y": 572.7789473684211,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "2. 양수 a에 대하여 곡선과 직선",
+          "x": 55,
+          "y": 665,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "y=x^2, y=2x+a",
+          "x": 75,
+          "y": 700,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "으로 둘러싸인 부분의 넓이가",
+          "x": 70,
+          "y": 737,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "{32} over {3}",
+          "x": 237,
+          "y": 734,
+          "size": 11,
+          "width": 45,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "이다. a의 값은? [4점]",
+          "x": 70,
+          "y": 767,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "text",
+          "text": "①",
+          "x": 60,
+          "y": 808,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "2",
+          "x": 78,
+          "y": 803,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "②",
+          "x": 120,
+          "y": 808,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "3",
+          "x": 138,
+          "y": 803,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "③",
+          "x": 180,
+          "y": 808,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "4",
+          "x": 198,
+          "y": 803,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "④",
+          "x": 240,
+          "y": 808,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "5",
+          "x": 258,
+          "y": 803,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "⑤",
+          "x": 300,
+          "y": 808,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "6",
+          "x": 318,
+          "y": 803,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "image",
+          "path": "graph-2.png",
+          "x": 62,
+          "y": 854,
+          "width": 290,
+          "height": 165
+        },
+        {
+          "type": "equation",
+          "script": "y=x^2",
+          "x": 96.4828125,
+          "y": 899.6602040816326,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y=2x+a",
+          "x": 209.3109375,
+          "y": 866.4357142857143,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "x",
+          "x": 326.9,
+          "y": 973.7010204081632,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y",
+          "x": 165.70156250000002,
+          "y": 855.15,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "O",
+          "x": 159.70156250000002,
+          "y": 982.7010204081632,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "3. 곡선과 직선으로 둘러싸인",
+          "x": 408,
+          "y": 235,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "text",
+          "text": "두 부분의 넓이의 합은? [3점]",
+          "x": 422,
+          "y": 260,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "y=x^3-3x, y=x",
+          "x": 428,
+          "y": 291,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "①",
+          "x": 413,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "4",
+          "x": 431,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "②",
+          "x": 473,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "6",
+          "x": 491,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "③",
+          "x": 533,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "8",
+          "x": 551,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "④",
+          "x": 593,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "10",
+          "x": 611,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "⑤",
+          "x": 653,
+          "y": 335,
+          "size": 11,
+          "width": 18,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "12",
+          "x": 671,
+          "y": 330,
+          "size": 11,
+          "width": 40,
+          "height": 25
+        },
+        {
+          "type": "image",
+          "path": "graph-3.png",
+          "x": 422,
+          "y": 388,
+          "width": 290,
+          "height": 220
+        },
+        {
+          "type": "equation",
+          "script": "y=x^3-3x",
+          "x": 586.3,
+          "y": 410.1154929577465,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y=x",
+          "x": 451.425,
+          "y": 537.7774647887325,
+          "size": 9,
+          "width": 125,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "x",
+          "x": 686.9000000000001,
+          "y": 492.2,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "y",
+          "x": 559.55,
+          "y": 395.2,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "O",
+          "x": 553.55,
+          "y": 501.2,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "-2",
+          "x": 477.55,
+          "y": 484.0450704225352,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "2",
+          "x": 643.55,
+          "y": 508.8338028169014,
+          "size": 9,
+          "width": 20,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "heading": "정답 및 해설",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1번 정답: ④",
+          "x": 55,
+          "y": 240,
+          "size": 12,
+          "width": 305,
+          "height": 24.4
+        },
+        {
+          "type": "text",
+          "text": "두 교점의 x좌표를 구하면",
+          "x": 70,
+          "y": 280,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "-x^2+4x+1=x+1",
+          "x": 75,
+          "y": 313,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "x(x-3)=0~~THEREFORE~~x=0, 3",
+          "x": 75,
+          "y": 350,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "이 구간에서 포물선이 위에 있으므로",
+          "x": 70,
+          "y": 390,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "S=int_0^3 (3x-x^2)dx={9} over {2}",
+          "x": 75,
+          "y": 427,
+          "size": 11,
+          "width": 300,
+          "height": 40
+        },
+        {
+          "type": "text",
+          "text": "평가 요소: 교점과 적분 구간 결정",
+          "x": 70,
+          "y": 500,
+          "size": 10,
+          "width": 305,
+          "height": 21.0
+        },
+        {
+          "type": "text",
+          "text": "2번 정답: ②",
+          "x": 55,
+          "y": 585,
+          "size": 12,
+          "width": 305,
+          "height": 24.4
+        },
+        {
+          "type": "equation",
+          "script": "b=sqrt{1+a}",
+          "x": 75,
+          "y": 630,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "라 하면 두 교점의 x좌표는",
+          "x": 70,
+          "y": 665,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "1-b, 1+b",
+          "x": 75,
+          "y": 700,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "이다. 적분 구간의 중심을 원점으로 옮기면",
+          "x": 70,
+          "y": 740,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "t=x-1, S=int_{-b}^{b} (b^2-t^2)dt={4} over {3}b^3",
+          "x": 75,
+          "y": 780,
+          "size": 11,
+          "width": 300,
+          "height": 45
+        },
+        {
+          "type": "equation",
+          "script": "{4} over {3}b^3={32} over {3}~~THEREFORE~~b=2",
+          "x": 75,
+          "y": 840,
+          "size": 11,
+          "width": 300,
+          "height": 40
+        },
+        {
+          "type": "equation",
+          "script": "1+a=4~~THEREFORE~~a=3",
+          "x": 75,
+          "y": 900,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "평가 요소: 넓이 조건에서 상수 역산",
+          "x": 70,
+          "y": 960,
+          "size": 10,
+          "width": 305,
+          "height": 21.0
+        },
+        {
+          "type": "text",
+          "text": "3번 정답: ③",
+          "x": 408,
+          "y": 240,
+          "size": 12,
+          "width": 305,
+          "height": 24.4
+        },
+        {
+          "type": "text",
+          "text": "교점의 x좌표를 구하면",
+          "x": 422,
+          "y": 280,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "x^3-3x=x",
+          "x": 428,
+          "y": 313,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "x(x-2)(x+2)=0",
+          "x": 428,
+          "y": 350,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "THEREFORE~~x=-2, 0, 2",
+          "x": 428,
+          "y": 387,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "원점에서 곡선의 위아래가 바뀐다.",
+          "x": 422,
+          "y": 435,
+          "size": 11,
+          "width": 305,
+          "height": 22.7
+        },
+        {
+          "type": "equation",
+          "script": "S_1=int_{-2}^0 (x^3-4x)dx=4",
+          "x": 428,
+          "y": 480,
+          "size": 11,
+          "width": 300,
+          "height": 40
+        },
+        {
+          "type": "equation",
+          "script": "S_2=int_0^2 (4x-x^3)dx=4",
+          "x": 428,
+          "y": 545,
+          "size": 11,
+          "width": 300,
+          "height": 40
+        },
+        {
+          "type": "equation",
+          "script": "S=S_1+S_2=8",
+          "x": 428,
+          "y": 610,
+          "size": 11,
+          "width": 300,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "평가 요소: 구간 분할과 넓이의 합",
+          "x": 422,
+          "y": 665,
+          "size": 10,
+          "width": 305,
+          "height": 21.0
+        },
+        {
+          "type": "text",
+          "text": "전체 구간을 한 번에 적분하면 0이 된다.",
+          "x": 422,
+          "y": 705,
+          "size": 10,
+          "width": 305,
+          "height": 21.0
+        },
+        {
+          "type": "text",
+          "text": "넓이는 각 구간에서 양수로 계산한다.",
+          "x": 422,
+          "y": 735,
+          "size": 10,
+          "width": 305,
+          "height": 21.0
+        }
+      ],
+      "badge": "정답·해설"
+    }
+  ]
+}

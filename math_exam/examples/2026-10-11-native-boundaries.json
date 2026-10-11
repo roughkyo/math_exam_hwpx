@@ -1,0 +1,511 @@
+{
+  "title": "본문 직접 편집·수식 경계 검증",
+  "pages": [
+    {
+      "heading": "본문과 수식 분리 검증",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 235,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "tan theta",
+              "width": 20.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "tan theta",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 값은? [3점]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 278,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "cos theta",
+              "width": 21.75,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "cos theta",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 321,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "sin theta+3cos theta=0",
+              "width": 75.95,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "sin theta+3cos theta=0",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "이고 "
+            },
+            {
+              "equation": "sin theta",
+              "width": 19.5,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "sin theta",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 364,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "int _{0}^{pi over 2} sqrt {sin x-sin^{3}x} dx",
+              "width": 101.6,
+              "height": 32.87,
+              "baseline": 68,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "int _{0}^{pi over 2} sqrt {sin x-sin^{3}x} dx",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 407,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "Q LEFT ( log _{5} 12 RIGHT )",
+              "width": 45.0,
+              "height": 13.5,
+              "baseline": 71,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "Q LEFT ( log _{5} 12 RIGHT )",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "에 대하여"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 450,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "(a, b, c, d)",
+              "width": 39.08,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "(a, b, c, d)",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 순서쌍"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 493,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "(4, 0, 7)",
+              "width": 31.56,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "(4, 0, 7)",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "일 때, 점 "
+            },
+            {
+              "equation": "B(9, 2, b)",
+              "width": 39.08,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "B(9, 2, b)",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "에 대하여"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 536,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "log _{9} ab",
+              "width": 28.5,
+              "height": 13.5,
+              "baseline": 71,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "log _{9} ab",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "의 값은?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 579,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "LEFT (a, sqrt {2} a RIGHT )",
+              "width": 39.39,
+              "height": 12.9,
+              "baseline": 87,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "LEFT (a, sqrt {2} a RIGHT )",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "에서 만난다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 622,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "ln 2",
+              "width": 14.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "ln 2",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "ln 3",
+              "width": 14.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "ln 3",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "sin pi t",
+              "width": 24.0,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "sin pi t",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "tan 6x",
+              "width": 26.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "tan 6x",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 665,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "equation": "log _{5} 3",
+              "width": 24.0,
+              "height": 13.5,
+              "baseline": 71,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "log _{5} 3",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "2ln a",
+              "width": 19.5,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "2ln a",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "LEFT |sin x RIGHT | cos x",
+              "width": 53.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "LEFT |sin x RIGHT | cos x",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 708,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "흰 공 1개와 검은 공 2개를 꺼낸다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 751,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "두 사건 "
+            },
+            {
+              "equation": "A",
+              "width": 8.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "A",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": ", "
+            },
+            {
+              "equation": "B",
+              "width": 7.5,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "B",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "는 서로 독립이다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 794,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "("
+            },
+            {
+              "equation": "X",
+              "width": 8.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "X",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "가 0 또는 1의 값을 가지는 경우)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "x": 60,
+          "y": 837,
+          "width": 650,
+          "height": 40,
+          "size": 11,
+          "runs": [
+            {
+              "text": "도형을 "
+            },
+            {
+              "equation": "T",
+              "width": 7.5,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "T",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "라 하고 "
+            },
+            {
+              "equation": "P(B~|~A)",
+              "width": 45.54,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "P(B~|~A)",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "를 구한다."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

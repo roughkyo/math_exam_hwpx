@@ -1,0 +1,203 @@
+{
+  "title": "수식·본문 회귀 검증 예시",
+  "pages": [
+    {
+      "heading": "수식 변환 검증 예시",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "1. 두 원",
+          "x": 60,
+          "y": 235,
+          "width": 80,
+          "height": 25,
+          "bold": true
+        },
+        {
+          "type": "equation",
+          "script": "C_{1}, C_{2}",
+          "x": 145,
+          "y": 235,
+          "width": 90,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "와 선분에 대하여",
+          "x": 240,
+          "y": 235,
+          "width": 170,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "bar {rm {AB}}=5",
+          "x": 90,
+          "y": 275,
+          "width": 110,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "이다. [3점]",
+          "x": 210,
+          "y": 275,
+          "width": 120,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "2. 두 사건",
+          "x": 60,
+          "y": 340,
+          "width": 100,
+          "height": 25,
+          "bold": true
+        },
+        {
+          "type": "equation",
+          "script": "A",
+          "x": 165,
+          "y": 340,
+          "width": 18,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": ", ",
+          "x": 185,
+          "y": 340,
+          "width": 16,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "B",
+          "x": 204,
+          "y": 340,
+          "width": 18,
+          "height": 25
+        },
+        {
+          "type": "text",
+          "text": "는 서로 독립이다. [3점]",
+          "x": 226,
+          "y": 340,
+          "width": 200,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "9^{{1} over {4}} times 3^{-{1} over {2}}",
+          "x": 90,
+          "y": 395,
+          "width": 210,
+          "height": 40
+        },
+        {
+          "type": "equation",
+          "script": "f prime (x)=LEFT | sin x RIGHT | cos x",
+          "x": 90,
+          "y": 460,
+          "width": 250,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "text": "조건식의 행·열 및 한글 띄어쓰기 검사",
+          "x": 60,
+          "y": 540,
+          "width": 350,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "Y=",
+          "x": 70,
+          "y": 610,
+          "width": 45,
+          "height": 25
+        },
+        {
+          "type": "equation",
+          "script": "LEFT { matrix { `` # `` # `` # `` # `` # `` } RIGHT .",
+          "x": 118,
+          "y": 580,
+          "width": 25,
+          "height": 90,
+          "size": 11
+        },
+        {
+          "type": "equation",
+          "script": "X",
+          "x": 160,
+          "y": 585,
+          "width": 35,
+          "height": 25
+        },
+        {
+          "type": "paragraph",
+          "x": 190,
+          "y": 585,
+          "width": 195,
+          "height": 25,
+          "runs": [
+            {
+              "text": "("
+            },
+            {
+              "equation": "X",
+              "width": 8.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "X",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "가 0 또는 1의 값을 가지는 경우)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "script": "2",
+          "x": 160,
+          "y": 640,
+          "width": 35,
+          "height": 25
+        },
+        {
+          "type": "paragraph",
+          "x": 190,
+          "y": 640,
+          "width": 195,
+          "height": 25,
+          "runs": [
+            {
+              "text": "("
+            },
+            {
+              "equation": "X",
+              "width": 8.25,
+              "height": 11.25,
+              "baseline": 85,
+              "equation_font": "HYhwpEQ",
+              "measurement": {
+                "script": "X",
+                "size": 11.0,
+                "font": "HYhwpEQ"
+              }
+            },
+            {
+              "text": "가 2 이상인 경우)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

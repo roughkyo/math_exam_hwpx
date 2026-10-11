@@ -1,0 +1,7 @@
+# 실제 검증한 Python 3.13 환경 버전입니다.
+lxml==6.0.2
+PyMuPDF==1.26.7
+numpy==2.3.0
+matplotlib==3.11.2
+Pillow==11.2.1
+pywin32==310; sys_platform == "win32"

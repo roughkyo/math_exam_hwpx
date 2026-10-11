@@ -1,0 +1,6 @@
+interface:
+  display_name: "math_exam"
+  short_description: "수능형 수학 문항과 새 그림을 편집 가능한 HWPX로 제작하고 교차검증"
+  default_prompt: "Use $math-exam (math_exam package) to create and verify editable Korean mathematics exam HWPX documents."
+policy:
+  allow_implicit_invocation: true

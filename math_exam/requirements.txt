@@ -1,0 +1,6 @@
+lxml>=5.3,<7
+PyMuPDF>=1.26,<2
+numpy>=2.2,<3
+matplotlib>=3.10,<4
+Pillow>=11,<13
+pywin32>=310; sys_platform == "win32"

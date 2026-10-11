@@ -1,0 +1,97 @@
+{
+  "title": "수식 조판 검증",
+  "pages": [
+    {
+      "heading": "수식 조판 검증",
+      "badge": "검증용",
+      "blocks": [
+        {
+          "type": "text",
+          "x": 55,
+          "y": 220,
+          "width": 650,
+          "height": 30,
+          "text": "늘어나는 괄호·함수 간격·조건부확률 회귀 검증",
+          "bold": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 280,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "3^{x-8}=LEFT ( {1} over {27} RIGHT )^{x}",
+          "source_script": "3^{x-8}=LEFT ( {1} over {27} RIGHT )^{x}",
+          "stretch_parentheses_required": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 368,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "sum_{n=1}^{inf} a_{n}b_{n}=LEFT ( sum_{n=1}^{inf} a_{n} RIGHT ) times LEFT ( sum_{n=1}^{inf} b_{n} RIGHT )",
+          "source_script": "sum_{n=1}^{inf} a_{n}b_{n}=LEFT ( sum_{n=1}^{inf} a_{n} RIGHT ) times LEFT ( sum_{n=1}^{inf} b_{n} RIGHT )",
+          "stretch_parentheses_required": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 456,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "{rm {V}} it LEFT ( {1} over {a} X RIGHT )",
+          "source_script": "{rm {V}} it LEFT ( {1} over {a} X RIGHT )",
+          "stretch_parentheses_required": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 544,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "g(a) times LEFT ( lim_{m rarrow inf} g(m) RIGHT ) +g(b) times LEFT ( {ln b} over {b} RIGHT )^{2}",
+          "source_script": "g(a) times LEFT ( lim_{m rarrow inf} g(m) RIGHT ) +g(b) times LEFT ( {ln b} over {b} RIGHT )^{2}",
+          "stretch_parentheses_required": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 632,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "A LEFT ( 3, -{3} over {2}, -2 RIGHT )",
+          "source_script": "A LEFT ( 3, -{3} over {2}, -2 RIGHT )",
+          "stretch_parentheses_required": true
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 720,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "{rm {P}} it (B~|~A)",
+          "source_script": "{rm {P}} it (B~|~A)",
+          "stretch_parentheses_required": false
+        },
+        {
+          "type": "equation",
+          "x": 70,
+          "y": 808,
+          "width": 600,
+          "height": 65,
+          "size": 13,
+          "script": "f prime(x)=LEFT | sin x RIGHT | cos x",
+          "source_script": "f prime(x)=LEFT | sin x RIGHT | cos x",
+          "stretch_parentheses_required": false
+        }
+      ]
+    }
+  ]
+}
