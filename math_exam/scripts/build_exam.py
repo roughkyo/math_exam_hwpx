@@ -11,6 +11,7 @@ from PIL import Image
 import hwpx_shapes as m
 from layout_guards import equation_guard, normalize_script
 import native_paragraphs
+from footer_guards import prepare_footers, remove_template_copyright, check_background_footer
 
 PACKAGE = Path(__file__).resolve().parent.parent
 NS = m.NS
@@ -50,6 +51,14 @@ def build(plan_path, output, template=None):
         raise ValueError('scaffold에 secPr와 colPr가 모두 있어야 지면 크기가 유지됩니다.')
     pagepr = scaffold.find('.//hp:pagePr', NS)
     paper = [int(pagepr.get('width')) / 100, int(pagepr.get('height')) / 100]
+    plan, body_footer = prepare_footers(plan, paper[1])
+    if body_footer:
+        remove_template_copyright(scaffold, NS)
+        for name in list(data):
+            if re.fullmatch(r'Contents/masterpage\d+\.xml', name):
+                master = xml(data[name])
+                remove_template_copyright(master, NS)
+                data[name] = serialize(master)
     section = E.Element(original.tag, nsmap=original.nsmap)
     header.set('secCnt', '1')
     manifest = hpf.find('opf:manifest', NS)
@@ -150,6 +159,7 @@ def build(plan_path, output, template=None):
 
     image_count = 0
     for page_no, page in enumerate(plan['pages']):
+        check_background_footer(page, paper, plan_path.parent)
         p = deepcopy(scaffold)
         p.set('id', str(m.uid()))
         p.set('pageBreak', '0' if page_no == 0 else '1')
@@ -197,7 +207,10 @@ def build(plan_path, output, template=None):
             if x < 0 or y < 0 or x + width > paper[0] or y + height > paper[1]:
                 raise ValueError('쪽 경계를 벗어난 블록: ' + str(block))
             if block['type'] in ('text', 'paragraph'):
-                native_paragraphs.paragraph(run, block, para_id, border_id, style, equation)
+                table = native_paragraphs.paragraph(run, block, para_id, border_id, style, equation)
+                bottom = int(table.find('hp:pos', NS).get('vertOffset')) + int(table.find('hp:sz', NS).get('height'))
+                if bottom > round(paper[1] * 100):
+                    raise ValueError('수식 여백을 확보한 셀이 쪽 아래를 벗어납니다. 문단 위치를 조정하세요.')
             elif block['type'] == 'equation':
                 run.append(equation(block))
             elif block['type'] == 'image':

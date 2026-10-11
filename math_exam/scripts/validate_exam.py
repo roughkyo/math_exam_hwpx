@@ -11,6 +11,7 @@ import numpy as np
 import fitz
 from PIL import Image, ImageFilter
 from hwpx_shapes import NS
+from footer_guards import prepare_footers
 from layout_guards import pdf_layout, equation_guard, normalize_script, metrics_guard
 
 
@@ -36,6 +37,8 @@ def validate_plan(path, plan):
     anchors = [p for root in roots for p in root.findall('hp:p', NS)]
     if len(anchors) != len(plan['pages']):
         raise ValueError('원고와 출력의 명시적 페이지 문단 개수가 다릅니다.')
+    pagepr = roots[0].find('.//hp:pagePr', NS)
+    plan, _ = prepare_footers(plan, int(pagepr.get('height')) / 100)
     counts = {'equations':0, 'native_paragraphs':0, 'inline_metrics':0}
     for page_number, (page, anchor) in enumerate(zip(plan['pages'], anchors), 1):
         expected_equations = []

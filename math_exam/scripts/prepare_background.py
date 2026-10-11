@@ -21,4 +21,7 @@ if __name__ == '__main__':
     for box in spec['remove_boxes']:
         page.add_redact_annot(fitz.Rect(box), fill=False)
     page.apply_redactions(images=0, graphics=0, text=0)
+    # 윤곽선으로 변환된 글자는 텍스트 삭제로 사라지지 않습니다. 검토한 영역만 덮습니다.
+    for box in spec.get('clear_boxes', []):
+        page.draw_rect(fitz.Rect(box), color=None, fill=(1, 1, 1), overlay=True)
     page.get_pixmap(matrix=fitz.Matrix(5, 5), alpha=False).save(out)

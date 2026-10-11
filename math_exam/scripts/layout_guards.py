@@ -89,8 +89,11 @@ def pdf_layout(path, spec):
                                 intersection = own_rect & r
                                 if s['text'] != own['text'] and r.y0 >= body_top and intersection.width > .5 and intersection.height > .5:
                                     overlap.append(s['text'])
-            passed = text_ok and inside and color_ok and not overlap
+            occurrences = compact(page.get_text(flags=0)).count(literal)
+            expected = check.get('expected_occurrences')
+            unique = expected is None or occurrences == expected
+            passed = text_ok and inside and color_ok and not overlap and unique
             if check.get('max_lines') == 1:
                 passed = passed and one_line
-            results.append(dict(check, passed=passed, text_present=text_ok, single_line=one_line, inside_region=inside, color_match=color_ok, body_overlap=overlap, bboxes=[s['bbox'] for s in matching]))
+            results.append(dict(check, passed=passed, occurrences=occurrences, text_present=text_ok, single_line=one_line, inside_region=inside, color_match=color_ok, body_overlap=overlap, bboxes=[s['bbox'] for s in matching]))
     return {'checks': results, 'passed': all(row['passed'] for row in results), 'visual_verified': False}

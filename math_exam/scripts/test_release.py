@@ -64,6 +64,9 @@ def run(package, work):
             results[key + '_invalid_measurement_rejected'] = True
         else:
             results[key + '_invalid_measurement_rejected'] = False
+    from test_footer_visibility import run as footer_visibility_test
+    footer_visibility_test(work / 'footer-visibility')
+    results['footer_visibility_regression_passed'] = True
     install = work / 'installed'
     subprocess.run([sys.executable, '-X', 'utf8', '-B', str(package/'scripts/install_skill.py'), '--engine', 'codex', '--project', str(install)], check=True, capture_output=True)
     target = install / '.agents/skills/math-exam'

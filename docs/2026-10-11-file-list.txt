@@ -2,6 +2,7 @@
 .gitignore
 README.md
 docs/2026-10-11-file-list.txt
+docs/2026-10-11-footer-vector-fix.md
 docs/2026-10-11-publication-audit.md
 docs/2026-10-11-template-update.md
 math_exam/README.md
@@ -40,6 +41,7 @@ math_exam/scripts/check_examples.py
 math_exam/scripts/doctor.py
 math_exam/scripts/draw_graph.py
 math_exam/scripts/extract_pdf.py
+math_exam/scripts/footer_guards.py
 math_exam/scripts/hwpx_shapes.py
 math_exam/scripts/install_skill.py
 math_exam/scripts/layout_guards.py
@@ -49,6 +51,7 @@ math_exam/scripts/package_skill.py
 math_exam/scripts/prepare_background.py
 math_exam/scripts/render_hancom.py
 math_exam/scripts/smoke_test.py
+math_exam/scripts/test_footer_visibility.py
 math_exam/scripts/test_layout_guards.py
 math_exam/scripts/test_native_paragraphs.py
 math_exam/scripts/test_release.py
